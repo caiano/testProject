@@ -1,0 +1,53 @@
+body {
+  background-color: #f7f7f7;
+}
+
+
+.container .row .card {
+  background-color: #fcfcfc;
+  border: none;
+}
+
+.jumbotron {
+  /*background-color: #fcb04e;*/
+  background-color: #412559;
+  color: #412559;
+/*  color: #e0e0e0;*/
+}
+
+.row.rowbottom {
+  background-color: #fcfcfc;
+  border-radius: 0 0 25px 25px;
+}
+
+.row.rowtop {
+  background-color: #fcfcfc;
+  border-radius: 25px 25px 0 0;
+}
+/*change nav-bar background*/
+nav.navbar {
+  background-color:  #101f38;
+}
+
+/*change navbar brand color*/
+.navbar a.navbar-brand{
+  color: #c6c6c6;
+}
+
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+  color: white;
+}
+
+.collapse.navbar-collapse {
+  color: red;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #999;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
